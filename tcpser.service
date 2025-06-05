@@ -1,0 +1,13 @@
+[Unit]
+Description=TCPSER LAUNCHER
+After=network.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/WiFi2DialUp/tcpser/tcpser -d /dev/ttyAMA0 -s 38400 -S 28800 -n2242525=localhost:5432 -n3372234=micronet.ddns.net:2323
+ExecStartPost=/sbin/iptables -t nat -A POSTROUTING -s 172.16.0.0/24 -j MASQUERADE
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
