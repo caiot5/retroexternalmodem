@@ -1,0 +1,13 @@
+[Unit]
+Description=PPPD Wrapper Script
+After=network.target tcpser.service
+Requires=tcpser.service
+
+[Service]
+Type=simple
+User=root
+ExecStart=/usr/bin/python3 /WiFi2DialUp/pppd-wrapper.py
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
