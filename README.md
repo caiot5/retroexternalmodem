@@ -22,7 +22,7 @@
 - A 36mm 4ohms 2w Mini PC Speaker or a Polyphonic Buzzer ([reference link](https://produto.mercadolivre.com.br/MLB-2153455725-alto-falante-36mm-4-ohms-2w-cone-plastico-_JM))
 - A V8 micro usb connector (required if using the 3d-printed case) ([reference link](https://produto.mercadolivre.com.br/MLB-2626229031-kit-com-10pcs-conector-micro-usb-macho-v8-solda-_JM?quantity=1))
 - A 5V 3A p4 power supply (required to keep the aesthetic of the 3d-printed case) ([reference link](https://produto.mercadolivre.com.br/MLB-1680809250-fonte-chaveada-5v-3a-amperagem-real-plug-p4-55x21-_JM))
-- A Phenolic Sheet Board (optional) ([reference link]( FOLHETE-ilhada-28x129-cm-pcb-perfurada-padro-_JM#is_advertising=true&backend_model=search-backend&position=10&search_layout=grid&type=pad&tracking_id=7fde8bf7-4c40-444b-8c78-eb38af4617c8&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=10&ad_click_id=Nzc4MWExNmUtM2IzNy00NTcyLWIzNjgtMzVlODdlYTIxNmJk))
+- A Phenolic Sheet Board (optional) ([reference link](https://produto.mercadolivre.com.br/MLB-1117189200-10x-placa-fenolite-ilhada-28x129-cm-pcb-perfurada-padro-_JM#is_advertising=true&backend_model=search-backend&position=10&search_layout=grid&type=pad&tracking_id=7fde8bf7-4c40-444b-8c78-eb38af4617c8&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=10&ad_click_id=Nzc4MWExNmUtM2IzNy00NTcyLWIzNjgtMzVlODdlYTIxNmJk)
 
 ## Table of Contents
 
