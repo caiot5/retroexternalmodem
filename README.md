@@ -1,5 +1,5 @@
 # 🛠 RetroExternalModem
-
+A project that aims to turn a Raspberry Pi device into an external modem connected to wi-fi emulating both dial-up ISP connections and BBS (based on previous works by Luis Miguel Silva's (linclms / linclmsilva / @TrashPandamonium) WiFi2DialUp, by Matt Whitted (podsix)'s pimodem and Jim Brain's/FozzTexx's tcpser)
 [![The RetroExternalModem](https://icq.byte5.com.br/modem1.jpeg)](https://icq.byte5.com.br/modem1.jpeg)
 [![The RetroExternalModem](https://icq.byte5.com.br/modem2.jpeg)](https://icq.byte5.com.br/modem2.jpeg)
 
