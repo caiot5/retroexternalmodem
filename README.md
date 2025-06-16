@@ -1,5 +1,5 @@
 # 🛠 RetroExternalModem
-A project that aims to turn a Raspberry Pi device into an external modem connected to wi-fi emulating both dial-up ISP connections and BBS (based on previous works by Luis Miguel Silva's (linclms / linclmsilva / @TrashPandamonium) WiFi2DialUp, by Matt Whitted (podsix)'s pimodem and Jim Brain's/FozzTexx's tcpser)
+A project that aims to turn a Raspberry Pi device into an external modem connected to wi-fi emulating both dial-up ISP connections and BBS (based on previous works by Luis Miguel Silva's ([@lmsilva](https://github.com/lmsilva) WiFi2DialUp, by Matt Whitted (podsix)'s pimodem and Jim Brain's/FozzTexx's tcpser)
 [![The RetroExternalModem](https://icq.byte5.com.br/modem1.jpeg)](https://icq.byte5.com.br/modem1.jpeg)
 [![The RetroExternalModem](https://icq.byte5.com.br/modem2.jpeg)](https://icq.byte5.com.br/modem2.jpeg)
 
@@ -112,7 +112,7 @@ Answer 'Yes' to IPv4/IPv6 prompts
 
 The auto setup ends here and you're good to go, add a generic (standard) modem to 38400 baud rate **WITHOUT HARDWARE FLOW CONTROL**  
 and either dial (PPP) to 2242525 to use the internet (remember: **you WILL need to use your login and password credentials from raspberry to authenticate the dial-up)**  
-or dial via Hyper Terminal (or such) using ATDTyour.bbs.com:port or dial ATDT3372234 to Luiz Pacheco's micronet BBS ;)  
+or dial via Hyper Terminal (or such) using ATDTyour.bbs.com:port or dial ATDT3372234 to Luiz Pacheco's [@lgpf](https://github.com/lgpf) micronet BBS ;)  
 But if for some reason you wanted to do the manual setup, follow the next detailed steps:
 
 ## Manual Setup (Advanced)
@@ -300,7 +300,7 @@ Use the command ATJ (based on Luis Miguel's ATI approach)
 
 Licensed under GPLv3. Thanks to all contributors & the open-source community for [RetroExternalModem](https://github.com/caiot5/RetroExternalModem) and related tools.
 
-**First of all I would like to thank my friend Luiz Pacheco for all the encouragement and feedback (also for electronic schematics).**  
+**First of all I would like to thank my friend Luiz Pacheco [@lgpf](https://github.com/lgpf) for all the encouragement and feedback (also for electronic schematics).**  
 The Sportster (RetroExternalModem) Case has been modeled **all by him and only him alone**, make sure you get the stl and print yourself, mate ;)  
 - [Luiz Pacheco's Sportster 3D Case](https://www.thingiverse.com/thing:7063155)
 
