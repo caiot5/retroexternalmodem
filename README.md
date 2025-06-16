@@ -10,6 +10,7 @@
 - A Raspberry Pi 3 (B or B+)  
   *Note: It can work with older and newer models (or even with other SBCs) but might require advanced knowledge to modify both the scripts and the 3d-printed case to match the size.*
 - A MAX3232 circuit board ([reference link](https://produto.mercadolivre.com.br/MLB-3444562089-2-x-modulo-db9-conversor-max232-rs232-ttl-serial-nf-_JM?quantity=1))
+  *P.S: The MAX3232 doesn't support HW Flow control, so make sure you disable it at your OS.*
 - A Serial Straight Through Male/Female cable [can also work with usb-serial adapters AND THEY SUPPORT HW FLOW CONTROL but go with the max3232 if you want to use the 3d-printed-case] ([reference link](https://produto.mercadolivre.com.br/MLB-3857304740-cabo-rs232-macho-x-femea-db9-13m-cor-branco-_JM?searchVariation=179787273503&highlight=false&pdp_filters=SHIPPING_ORIGIN%3A10215068&headerTopBrand=false#polycard_client=search-nordic&searchVariation=179787273503&position=17&search_layout=stack&type=item&tracking_id=c063ba76-1738-4dab-bc9f-f146cad59850))
 - Some leds (required if using the 3d-printed case) ([reference link](https://produto.mercadolivre.com.br/MLB-1990525341-50x-led-retangular-vermelho-2x5x7mm-transparente-alto-brilho-_JM?searchVariation=95405518672#polycard_client=bookmarks))
 - Some 1k resistors (required if using leds) ([reference link](https://www.mercadolivre.com.br/resistor-1k-cr25-14w-5-pacote-com-100-pecas/p/MLB27774191?pdp_filters=item_id:MLB3489620871))
@@ -91,7 +92,7 @@ The Raspberry Pi Imager will ask if you want to apply your customizations to the
 
 ## 5. SSH Access
 
-1. Find Pi’s IP via your router or `ping <hostname>.local`. (in my case it would be `ping RAS.local`
+1. Find Pi’s IP via your router or `ping <hostname>.local`. (in my case it would be: `ping RAS.local`)
 2. SSH in:  
    ```
    ssh <username>@<pi_ip>
