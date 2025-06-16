@@ -111,7 +111,7 @@ Answer 'Yes' to IPv4/IPv6 prompts
 
 The auto setup ends here and you're good to go, add a generic (standard) modem to 38400 baud rate **WITHOUT HARDWARE FLOW CONTROL**  
 and either dial (PPP) to 2242525 to use the internet (remember: **you WILL need to use your login and password credentials from raspberry to authenticate the dial-up)**  
-or dial via Hyper Terminal (or such) using ATDTyour.bbs.com:port or dial ATDT3372234 to Luiz's "Cupim" Guedes micronet BBS ;)  
+or dial via Hyper Terminal (or such) using ATDTyour.bbs.com:port or dial ATDT3372234 to Luiz Pacheco's micronet BBS ;)  
 But if for some reason you wanted to do the manual setup, follow the next detailed steps:
 
 ## Manual Setup (Advanced)
@@ -246,7 +246,7 @@ sudo systemctl start set_leds
 
 - **3D Printed Case:**  
   You can download a printable case for the RetroExternalModem at:  
-  [Luiz "Cupim" Guedes's Sportster 3D Case](https://www.printables.com/model/999999-retroexternalmodem-case)  
+  [Luiz Pacheco's Sportster 3D Case](https://www.thingiverse.com/thing:7063155)  
   Print it using standard PLA settings. Designed for RPi 3B+ and standard GPIO header spacing.
 - **LED, UART (MAX3232) and Speaker/Amplifier Wiring Schematic:**  
   [![Wiring schematic](schematic.png)](schematic.png)
@@ -293,9 +293,9 @@ For instance: ATC WIFI,MyNetwork,MyPass123
 
 Licensed under GPLv3. Thanks to all contributors & the open-source community for [RetroExternalModem](https://github.com/caiot5/RetroExternalModem) and related tools.
 
-**First of all I would like to thank my friend Luiz "Cupim" Guedes for all the encouragement and feedback (also for electronic schematics).**  
+**First of all I would like to thank my friend Luiz Pacheco for all the encouragement and feedback (also for electronic schematics).**  
 The Sportster (RetroExternalModem) Case has been modeled **all by him and only him alone**, make sure you get the stl and print yourself, mate ;)  
-- [Luiz "Cupim" Guedes's Sportster 3D Case](https://github.com/caiot5/RetroExternalModem)
+- [Luiz Pacheco's Sportster 3D Case](https://www.thingiverse.com/thing:7063155)
 
 **Special thanks to Luis Miguel Silva** for his extensive technical contributions. His work laid the foundation for much (almost all) of this project. Explore his insights and projects:  
 - [WiFi2DialUp Progress Update](https://mygpslostitself.blogspot.com/2017/08/wifi2dialup-progress-update.html)  
