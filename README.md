@@ -91,7 +91,7 @@ The Raspberry Pi Imager will ask if you want to apply your customizations to the
 
 ## 5. SSH Access
 
-1. Find Pi’s IP via your router or `ping RAS.local`.
+1. Find Pi’s IP via your router or `ping <hostname>.local`. (in my case it would be `ping RAS.local`
 2. SSH in:  
    ```
    ssh <username>@<pi_ip>
