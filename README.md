@@ -248,8 +248,8 @@ sudo systemctl start set_leds
   You can download a printable case for the RetroExternalModem at:  
   [Luiz Pacheco's Sportster 3D Case](https://www.thingiverse.com/thing:7063155)  
   Print it using standard PLA settings. Designed for RPi 3B+ and standard GPIO header spacing.
-- **LED, UART (MAX3232) and Speaker/Amplifier Wiring Schematic:**  
-  [![Wiring schematic](schematic.png)](schematic.png)
+- **LED, UART (MAX3232) and Speaker/Amplifier Wiring Schematic:**
+  [![Wiring Schematics](https://icq.byte5.com.br/schematic.png)](https://icq.byte5.com.br/schematic.png)
 
 ## 13. Upgrade or Uninstall
 
