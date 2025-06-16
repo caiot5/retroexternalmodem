@@ -290,6 +290,12 @@ Use the command ATC WIFI,(SSID),(PASSWORD)
 For instance: ATC WIFI,MyNetwork,MyPass123
 ```
 
+**Show current settings:**
+
+```
+Use the command ATJ (based on Luis Miguel's ATI approach)
+```
+
 ## 15. License & Acknowledgments
 
 Licensed under GPLv3. Thanks to all contributors & the open-source community for [RetroExternalModem](https://github.com/caiot5/RetroExternalModem) and related tools.
