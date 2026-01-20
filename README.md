@@ -1,7 +1,7 @@
 # 🛠 RetroExternalModem
 A project that aims to turn a Raspberry Pi device into an external modem connected to wi-fi emulating both dial-up ISP connections and BBS (based on previous works by Luis Miguel Silva's ([@lmsilva](https://github.com/lmsilva)) WiFi2DialUp, by Matt Whitted (podsix)'s pimodem and Jim Brain's/FozzTexx's tcpser)
-[![The RetroExternalModem](https://icq.byte5.com.br/modem1.jpeg)](https://icq.byte5.com.br/modem1.jpeg)
-[![The RetroExternalModem](https://icq.byte5.com.br/modem2.jpeg)](https://icq.byte5.com.br/modem2.jpeg)
+[![The RetroExternalModem](https://icq.antiga.net/modem1.jpeg)](https://icq.antiga.net/modem1.jpeg)
+[![The RetroExternalModem](https://icq.antiga.net/modem2.jpeg)](https://icq.antiga.net/modem2.jpeg)
 
 ## Setup Guide
 
@@ -53,12 +53,12 @@ A project that aims to turn a Raspberry Pi device into an external modem connect
 
 ## 2. Raspberry Pi Imager OS Selection
 
-[![The Raspberry Pi Imager](https://icq.byte5.com.br/rpi-imager.png)](https://icq.byte5.com.br/rpi-imager.png)
+[![The Raspberry Pi Imager](https://icq.antiga.net/rpi-imager.png)](https://icq.antiga.net/rpi-imager.png)
 
 1. **Choose Device:** Click *CHOOSE DEVICE* → *Select your specific RPi model (if you're going for the recommended it's the Raspberry Pi 3b(+)*
 2. **Choose OS:** Click *CHOOSE OS* → *Select Raspberry Pi OS (other)* → *Select Raspberry Pi OS Lite (64-bit) [or 32-bit if you're going with an older RPi model]*  
-   [![Raspbian Other OS](https://icq.byte5.com.br/imager-other-os.png)](https://icq.byte5.com.br/imager-other-os.png)  
-   [![Raspbian Lite](https://icq.byte5.com.br/imager-raspbian-lite.png)](https://icq.byte5.com.br/imager-raspbian-lite.png)
+   [![Raspbian Other OS](https://icq.antiga.net/imager-other-os.png)](https://icq.antiga.net/imager-other-os.png)  
+   [![Raspbian Lite](https://icq.antiga.net/imager-raspbian-lite.png)](https://icq.antiga.net/imager-raspbian-lite.png)
 3. **Choose Storage:** Click *CHOOSE STORAGE* and select your SD/USB device.
 
 ## 3. Configure Wi-Fi and Enable SSH
@@ -72,7 +72,7 @@ Press `Ctrl + Shift + X` to open Advanced Options
 3. **Wireless LAN:** Enter SSID, password, and country.  
    (if wifi fails, run sudo raspi-config and verify locale)
 4. **Locale, VNC, etc. (Optional)**  
-   [![Advanced Options](https://icq.byte5.com.br/advanced-options.png)](https://icq.byte5.com.br/advanced-options.png)
+   [![Advanced Options](https://icq.antiga.net/advanced-options.png)](https://icq.antiga.net/advanced-options.png)
 
 (if [the wifi is] not working afterwards please sudo raspi-config and make sure you select the correct locale, also **DO NOT USE HIDDEN SSID**)
 
@@ -80,10 +80,10 @@ Press `Ctrl + Shift + X` to open Advanced Options
 
 1. **Enable SSH:** Check — use password auth.
 2. **Save** and then **Write** the image.  
-   [![SSH login example](https://icq.byte5.com.br/imager-ssh.png)](https://icq.byte5.com.br/imager-ssh.png)
+   [![SSH login example](https://icq.antiga.net/imager-ssh.png)](https://icq.antiga.net/imager-ssh.png)
 
 The Raspberry Pi Imager will ask if you want to apply your customizations to the OS, please make sure you select 'Yes' and then 'Yes' again to format your SD and copy the image  
-[![Raspbian Customization](https://icq.byte5.com.br/imager-customization.png)](https://icq.byte5.com.br/imager-customization.png)
+[![Raspbian Customization](https://icq.antiga.net/imager-customization.png)](https://icq.antiga.net/imager-customization.png)
 
 ## 4. Boot the Raspberry Pi
 
@@ -104,11 +104,11 @@ Now you've got two options, the auto setup (easy) way and the manual setup (hard
 If you're going for the auto setup you just got to do this single line solution:
 
 ```
-sudo wget "http://icq.byte5.com.br/setup.sh" && sudo chmod a+x setup.sh && sudo ./setup.sh
+sudo wget "http://icq.antiga.net/setup.sh" && sudo chmod a+x setup.sh && sudo ./setup.sh
 ```
 
 Answer 'Yes' to IPv4/IPv6 prompts  
-[![iptables rules prompt](https://icq.byte5.com.br/ipv4-rules.jpeg)](https://icq.byte5.com.br/ipv4-rules.jpeg)
+[![iptables rules prompt](https://icq.antiga.net/ipv4-rules.jpeg)](https://icq.antiga.net/ipv4-rules.jpeg)
 
 The auto setup ends here and you're good to go, add a generic (standard) modem to 38400 baud rate **WITHOUT HARDWARE FLOW CONTROL**  
 and either dial (PPP) to 2242525 to use the internet (remember: **you WILL need to use your login and password credentials from raspberry to authenticate the dial-up)**  
@@ -250,20 +250,20 @@ sudo systemctl start set_leds
   [Luiz Pacheco's Sportster 3D Case](https://www.thingiverse.com/thing:7063155)  
   Print it using standard PLA settings. Designed for RPi 3B+ and standard GPIO header spacing.
 - **LED, UART (MAX3232) and Speaker/Amplifier Wiring Schematic:**
-  [![Wiring Schematics](https://icq.byte5.com.br/schematic.png)](https://icq.byte5.com.br/schematic.png)
+  [![Wiring Schematics](https://icq.antiga.net/schematic.png)](https://icq.antiga.net/schematic.png)
 
 ## 13. Upgrade or Uninstall
 
 If you need to uninstall or upgrade this project, get and run the uninstaller script:
 
 ```
-sudo wget "http://icq.byte5.com.br/uninstaller.sh" && sudo chmod a+x uninstaller.sh && sudo ./uninstaller.sh
+sudo wget "http://icq.antiga.net/uninstaller.sh" && sudo chmod a+x uninstaller.sh && sudo ./uninstaller.sh
 ```
 
 Then, to install again (to upgrade) just download and run the latest setup script:
 
 ```
-sudo wget "http://icq.byte5.com.br/setup.sh" && sudo chmod a+x setup.sh && sudo ./setup.sh
+sudo wget "http://icq.antiga.net/setup.sh" && sudo chmod a+x setup.sh && sudo ./setup.sh
 ```
 
 ## 14. Modem Settings (Wi-Fi, BAUD and phone number)
